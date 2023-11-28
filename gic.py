@@ -22,9 +22,10 @@ grammar = nltk.CFG.fromstring("""
 parser = nltk.RecursiveDescentParser(grammar)
 
 # Definir una cadena de prueba
-cadena = "V (y_5b_ = y_y6) 1+b-5/3*0.5-5+10 S var_66/b6 V"
-
+# cadena = "V (y_5b_ = y_y6) 1+b-5/3*0.5-5+10 S var_66/b6 V"
 # cadena = "I (y_5b > y_y6) 1+b-5/3 L nzgn_66/b6 D"
+
+cadena= "a + b * 3 / c"
 
 # Realizar el análisis sintáctico
 word = list(cadena)
